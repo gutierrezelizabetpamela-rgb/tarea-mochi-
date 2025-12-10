@@ -1,7 +1,621 @@
 body{ background-image: url(https://static.vecteezy.com/system/resources/previews/011/430/587/non_2x/seamless-pattern-with-simple-beige-hearts-on-white-background-image-vector.jpg) ;} 
-h1{ color: brown; text-align: center; font-family: 'Courier New', Courier, monospace; }
-p{ color: black; font-family: Arial, Helvetica, sans-serif; font-size: 18px; }
-h2{ color: darkred; font-family: 'Georgia', serif; }
-h3{ color: brown; font-family: 'Tahoma', sans-serif; }
-  h2 text-decotation: underline;
  
+ h1 {
+    color: rgb(123, 36, 36);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+
+h3 {
+    color: brown;
+    font-family: 'Tahoma', sans-serif;
+    border-bottom: 2px solid brown;
+    background-image: url("https://www.recetas-japonesas.com/base/stock/Recipe/mochi/mochi_web.jpg.webp");
+    background-size: cover;
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+}
+
+header {
+    background-color: rgba(54, 134, 200, 0.748);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/* Ejemplo: si querías subrayar h2 */
+h2 {
+    text-decoration: underline;
+}
+h1{ color: rgba(148, 46, 46, 0.737); text-align: center; font-family: 'Courier New', Courier, monospace; }
+
+
+
+
+
+
+
+  
+
+
+  .logo {
+        width: 30%;
+        height: auto;
+      
+  }
+   
+  header{
+    background-color: rgba(180, 131, 93, 0.866);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around
+  }
+
+  
+
+
+
+        
+ .redes  {
+
+    width: 40px; ;
+  }
+
+  .rs {
+
+    width: 40px; ;
+  }
+
+
+
+  .rs {
+    display: flex;
+    gap: 10px; /* separación entre imágenes */
+    justify-content: center; /* opcional, centra la fila */
+    align-items: center;
+}
+
+
+.redes {
+    width: 50px;  /* tamaño opcional */
+}
+
+
+.tae {
+    display: flex;
+    gap: 100px; /* separación entre imágenes */
+    justify-content: center; /* opcional, centra la fila */
+    align-items: center;
+}
+
+
+.frutilla {
+    width: 33% ;  /*  tamaño opcional */
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.hoonjake {
+    width: 30%;  /* tamaño opcional */
+    justify-content: center;
+    justify-content: space-around;
+}
+.targetas {
+    display: flex;          /* coloca las tarjetas en fila */
+    gap: 20px;              /* espacio entre las tarjetas */
+    justify-content: center;/* centra las tarjetas */
+    margin-top: 20px;
+}
+
+.card {
+    width: 10px;           /* tamaño de cada tarjeta */
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+
+
+.menulinks {
+    display: flex; 
+              /* pone los links en fila */
+    gap: 20px;              /* separa las barras */
+    justify-content: center;       /* las centra */
+    margin: 20px 0;
+
+}
+
+.menulinks a {
+    background-color: #ff8fa3;     /* color de la barra */
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;         /* quita el subrayado */
+    color: white;                  /* color del texto */
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menulinks a:hover {
+    background-color: #ff6b89;     /* efecto cuando pasas el mouse */
+}
+
+.barra-busqueda {
+    display: flex;          /* 🔥 La vuelve horizontal */
+    gap: 10px;              /* Espacio entre input y botón */
+    justify-content: center;
+    margin: 20px;
+}
+
+.barra-busqueda input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;           /* Ancho del cuadro */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.barra-busqueda button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #ff6b89;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.barra-busqueda button:hover {
+    background: #ff4d73;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+.modo-inclusivo {
+    background-color: #222;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+}
+
+.dark-mode {
+  --bg: #121212;
+  --text: #ffffff;
+background-color: black;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: 0.3s ease;
+}
+
+
+
+
+.tarjetamochi {
+  display: flex;
+  gap: 20px;            /* Espacio entre tarjetas */
+  justify-content: center; /* Centra las tarjetas */
+  margin-top: 20px;
+}
+.card {
+  width: fit-content;   /* Se adapta al contenido */
+  max-width: 100%;      /* No se pasa del ancho de la pantalla */
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+   justify-content: center;
+    justify-content: space-around;
+}
+
+.card img {
+  width: 100%;          /* La imagen ocupa todo el ancho de la tarjeta */
+  height: auto;         /* Mantiene proporciones */
+  border-radius: 10px;
+}
+
+
+
+  .video {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+.mapa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    justify-content: center;
+  }
+
+
+
+.video,
+.mapa {
+    border: 0;
+}
+  
+.fila {
+    display: flex;
+    gap: 20px;        /* separación entre video y mapa */
+    align-items: flex-start; /* opcional: alinea arriba */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------- */
+
+
+/*     FUENTES LINDAS     */
+/* ---------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Quicksand:wght@400;600&display=swap');
+
+/* ---------------------- */
+/*  PALETA DE COLORES     */
+/* ---------------------- */
+:root {
+  --bg: #fffafc;
+  --text: #4a3b3b;
+  --card-bg: #ffffff;
+  --primary: #ff7ea8;
+  --primary-hover: #ff5c90;
+  --header-bg: #ffdee7;
+  --footer-bg: #ffe8f0;
+}
+
+
+/*       MODO OSCURO      */
+/*   (ROSA OSCURO LINDO)  */
+/* ---------------------- */
+.dark-mode {
+  --bg: #2b1a1e;            /* Fondo oscuro vino-rosado */
+  --text: #ffe6ef;          /* Texto rosa muy claro */
+  --card-bg: #3a2228;       /* Tarjetas rosa oscuro suave */
+  --primary: #ff9abb;       /* Rosa pastel */
+  --primary-hover: #ff7fa9; /* Rosa pastel más fuerte */
+  --header-bg: #341c22;     /* Header rosa-vino */
+  --footer-bg: #301920;     /* Footer rosa-vino oscuro */
+
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* ---------------------- */
+/*        GENERALES       */
+/* ---------------------- */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  background-image: url("https://static.vecteezy.com/system/resources/previews/011/430/587/non_2x/seamless-pattern-with-simple-beige-hearts-on-white-background-image-vector.jpg");
+  background-size: 180px;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s ease;
+}
+
+/* ---------------------- */
+/*        TITULOS         */
+/* ---------------------- */
+h1, h2, h3 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: var(--text);
+  
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 22px;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 6px;
+}
+
+/* ---------------------- */
+/*         HEADER         */
+/* ---------------------- */
+header {
+  background-color: var(--header-bg);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  border-bottom: 3px solid var(--primary);
+}
+
+.logo {
+  width: 120px;
+}
+
+/* ---------------------- */
+/*    TARJETAS MOCHI      */
+/* ---------------------- */
+.tarjetamochi,
+.targetas,
+.d-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 260px;
+  background-color: var(--card-bg);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform .2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.btn {
+  width: 100%;
+  background-color: var(--primary);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: background .3s;
+}
+
+.btn:hover {
+  background-color: var(--primary-hover);
+}
+
+/* ---------------------- */
+/*    VIDEO Y MAPA        */
+/* ---------------------- */
+.fila {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.video {
+  width: 480px;
+  border-radius: 15px;
+}
+
+.mapa {
+  width: 450px;
+  border-radius: 15px;
+}
+
+/* ---------------------- */
+/*       MENÚ LINKS       */
+/* ---------------------- */
+.menulinks {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.menulinks a {
+  background-color: var(--primary);
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menulinks a:hover {
+  background-color: var(--primary-hover);
+}
+
+/* ---------------------- */
+/*  BARRA DE BÚSQUEDA     */
+/* ---------------------- */
+.barra-busqueda {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.barra-busqueda input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid #d6d6d6;
+}
+
+.barra-busqueda button {
+  background-color: var(--primary);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.barra-busqueda button:hover {
+  background-color: var(--primary-hover);
+}
+
+/* ---------------------- */
+/*        REDES           */
+/* ---------------------- */
+footer {
+  background-color: var(--footer-bg);
+  padding: 20px;
+  text-align: center;
+  border-top: 3px solid var(--primary);
+}
+
+.redes {
+  width: 50px;
+  margin: 10px;
+  transition: transform .2s;
+}
+
+.redes:hover {
+  transform: scale(1.1);
+}
+  
+
+/* ---------------------- */
+/*   MODO OSCURO ROSA     */
+/* ---------------------- */
+.dark-mode {
+  --bg:#f56495 ;            /* Fondo ROSA VINO OSCURO */
+  --text: #57474d;          /* Texto clarito rosado */
+  --header-bg:#f56495;     /* Header rosa oscuro vino */
+  --footer-bg:#f56495 ;
+  --primary:#f56495 ;       /* Rosa pastel suave */
+  --primary-hover: #f56495;
+
+  /* Tarjetas claras */
+  --card-bg: #ffeaf1;       /* Rosa pastel muy claro */
+}
+
+/* Letras dentro de las tarjetas más oscuras para contraste */
+.dark-mode .card {
+  background-color: var(--card-bg);
+  color: #5a3d46;          /* Texto rosado oscuro */
+}
+
+/* Botones en modo oscuro más suaves */
+.dark-mode .btn {
+  background-color: var(--primary);
+  color: #3a1420;
+}
+
+.dark-mode .btn:hover {
+  background-color: var(--primary-hover);
+}
+
+/* Títulos en modo oscuro */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+  color: #2d2326;  /* rosa clarito */
+}
+
+/* Barra de búsqueda en modo oscuro */
+.dark-mode .barra-busqueda input {
+  background-color: #ffe8f0;
+  color: #c82f60;
+  border: 1px solid #ffb6c9;
+}
+
+.dark-mode .barra-busqueda button {
+  background-color: var(--primary);
+  color: #3a1420;
+}
+
+
+
+
+
+.logo {
+  width: 50% ;      /* Ajustá según tu imagen */
+  display: block;
+  margin: 0 auto;
+}
+
+
+h2, #ingredientes {
+  border: 3% solid rgb(255, 174, 202);
+}
+
+.caja-contacto {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 15px;
+  border: 3px solid transparent; /* para que combine con el fondo */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Estilo general para formularios */
+.caja-contacto input,
+.caja-contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #e3aac3; /* rosa suave */
+}
+
+.caja-contacto button {
+  background: #e889b8;    /* rosa bonito */
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+}
+
+.caja-contacto button:hover {
+  background: #d56aa0;
+}
